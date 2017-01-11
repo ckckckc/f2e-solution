@@ -16,25 +16,29 @@ console.log(arrayMerge([
   ], 
     [1,2]
 ));
+
 // Insert after
 console.log(arrayMerge([
     [3,5],[9,12],[16,18],[20,22]
   ], 
     [23,24]
 ));
+
 // Insert in interval
 console.log(arrayMerge([
     [3,5],[9,12],[16,18],[20,22]
   ], 
     [13,15]
 ));
+
 // Merge one interval
 console.log(arrayMerge([
     [3,5],[9,12],[16,18],[20,22]
   ], 
     [10,15]
 ));
-// Merge two interval
+
+// Merge two intervals
 console.log(arrayMerge([
     [3,5],[9,12],[16,18],[20,22]
   ], 
@@ -54,7 +58,8 @@ console.log(findWord([
     ['S','F','C','S'], 
     ['A','D','E','E']
   ], 
-"SEE"));
+    "SEE"
+));
 
 console.log(findWord([
     ['A','B','C','E'], 
