@@ -1,15 +1,16 @@
-module.exports = function(input) {
-  let output = '';
-
+module.exports = (input) => {
   if (typeof input !== 'string') {
     throw new Error('typeof input must be string');
   }
+  
+  let output = [];
 
-  input = input.split('');
+  output.length = input.length;
 
-  for (let i = input.length - 1 ; i >= 0 ; i -- ) {
-    output += input[i];
+  for (let i = 0, j = input.length - 1 ; i <= j ; i ++, j-- ) {
+    output[i] = input[j];
+    output[j] = input[i];
   }
 
-  return output;
+  return output.join('');
 };
