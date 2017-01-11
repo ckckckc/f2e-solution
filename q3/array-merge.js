@@ -1,7 +1,3 @@
-function inInterval(interval, num) {
-  return interval[0] < num && num < interval[1];
-}
-
 function isOverLap(interval, pattern) {
   return !(interval[0] > pattern[1] || interval[1] < pattern[0]);
 }

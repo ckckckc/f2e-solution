@@ -11,5 +11,22 @@ module.exports = (num1, num2) => {
     return num2;
   }
 
+  /*
+    Use binary...
+    Example:
+
+    (decimal)
+    3 + 1 = 
+
+    (binary)
+    11 + 01 = 
+
+    (binary)
+    100 =
+    
+    (decimal)
+    4
+  */
+
   return 'Error: Handle with bitwise.';
 };
