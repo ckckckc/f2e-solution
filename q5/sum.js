@@ -11,5 +11,5 @@ module.exports = (num1, num2) => {
     return num2;
   }
 
-  throw new Error('Handle with bitwise.');
+  return 'Error: Handle with bitwise.';
 };

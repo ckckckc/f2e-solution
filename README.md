@@ -1,6 +1,6 @@
 # f2e-solution
 
-To run these solutions, please make sure that the Node environment has been installed.
+To run these solutions, please make sure that the Node environment(v6.9.0 above) has been installed.
 
 ## Check the Node environment:
 ```console
