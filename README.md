@@ -12,7 +12,7 @@ node -v
 
 ## How to use it ?
 ```console
-git clone https://github.com/ckckckc/f2e-solution.git
-cd f2e-solution
+git clone https://github.com/ckckckc/leetcode_with_node.git
+cd leetcode_with_node
 node main.js
 ```
