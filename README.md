@@ -1,4 +1,4 @@
-# f2e-solution
+# leetcode-with-node
 
 To run these solutions, please make sure that the Node environment(v6.9.0 above) has been installed.
 
